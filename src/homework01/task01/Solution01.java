@@ -1,8 +1,5 @@
-package homework01;
+package homework01.task01;
 
-/**
- * @autor V. Gordeev on 12.08.2016.
- */
 /*
 1. Найти минимальное из 3х чисел
  2. Найти среди 3х чисел максимальное и минимальное
@@ -15,7 +12,7 @@ package homework01;
  а если больше 7 дней, то скидка составит 50 грн.
 */
 
-public class task01 {
+public class Solution01 {
 
     public static void main(String[] args) {
 

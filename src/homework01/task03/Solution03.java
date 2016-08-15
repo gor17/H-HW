@@ -1,15 +1,10 @@
-package homework01;
+package homework01.task03;
 
-import java.util.ArrayList;
-
-/**
- * @autor V. Gordeev on 12.08.2016.
- */
 
 /*
 3. Найти минимальное из 3х чисел, причем, если минимальных несколько вывести все такие числа
  */
-public class task03 {
+public class Solution03 {
 
     public static void main(String[] args) {
 
@@ -38,7 +33,6 @@ public class task03 {
 
         } else if ((c < a) && (c == b)) {
             System.out.println("Минимальные значения: " + c + " " + b);
-        }
-        else  System.out.println("Все три значения равны: " + a + " " + b + " " + c);
+        } else System.out.println("Все три значения равны: " + a + " " + b + " " + c);
     }
 }

@@ -1,13 +1,9 @@
-package homework01;
-
-/**
- * @autor V. Gordeev on 12.08.2016.
- */
+package homework01.task02;
 
 /*
 * 2. Найти среди 3-х чисел максимальное и минимальное
 */
-public class task02 {
+public class Solution02 {
 
     public static void main(String[] args) {
 
