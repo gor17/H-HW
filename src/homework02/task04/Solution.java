@@ -12,18 +12,24 @@ package homework02.task04;
  */
 public class Solution {
 
+    private static final float TERRIBLE_TIPS = 1.0f;
+    private static final float POOR_TIPS = 1.05f;
+    private static final float GOOD_TIPS = 1.10f;
+    private static final float GREAT_TIPS = 1.15f;
+    private static final float EXELLENT_TIPS = 1.20f;
+
     static double howMuchToPay(String portrait, double bill) {
 
         if ("terrible".equals(portrait)) {
-            return bill;
+            return bill * TERRIBLE_TIPS;
         } else if ("poor".equals(portrait)) {
-            return bill * 1.05;
+            return bill * POOR_TIPS;
         } else if ("good".equals(portrait)) {
-            return bill * 1.10;
+            return bill * GOOD_TIPS;
         } else if ("great".equals(portrait)) {
-            return bill * 1.15;
+            return bill * GREAT_TIPS;
         } else if ("excellent".equals(portrait)) {
-            return bill * 1.20;
+            return bill * EXELLENT_TIPS;
         } else return bill;
     }
 

@@ -26,17 +26,17 @@ public class Solution {
     public static void main(String[] args) {
 
         // в моём калькуляторе операции умножения соответствует значок 'm'
-        char[] operation = args[0].toCharArray();
+        char operation = args[0].charAt(0);
 
         double a = Double.parseDouble(args[1]);
         double b = Double.parseDouble(args[2]);
 
-        System.out.println("Вы выбрали операцию: " + operation[0]);
+        System.out.println("Вы выбрали операцию: " + operation);
         System.out.println("Первый аргумент равен: " + a);
         System.out.println("Второй аргумент равен: " + b);
         System.out.println();
 
-        System.out.println("Результат ваших вычислений равен: " + calc(operation[0], a, b));
+        System.out.println("Результат ваших вычислений равен: " + calc(operation, a, b));
     }
 
 }
