@@ -16,7 +16,7 @@ public class Solution {
     private static final float POOR_TIPS = 1.05f;
     private static final float GOOD_TIPS = 1.10f;
     private static final float GREAT_TIPS = 1.15f;
-    private static final float EXELLENT_TIPS = 1.20f;
+    private static final float EXCELLENT_TIPS = 1.20f;
 
     static double howMuchToPay(String portrait, double bill) {
 
@@ -29,7 +29,7 @@ public class Solution {
         } else if ("great".equals(portrait)) {
             return bill * GREAT_TIPS;
         } else if ("excellent".equals(portrait)) {
-            return bill * EXELLENT_TIPS;
+            return bill * EXCELLENT_TIPS;
         } else return bill;
     }
 
