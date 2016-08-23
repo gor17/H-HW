@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-- Вывести первые 5 минимальных элементов массива
+- Вывести первые 5 минимальных элементов массива // Находим min значение, кладём на его место Integer.MAX_VALUE, затем находим следующий min и т.д.
  */
-public class Solution {
+public class SolutionVersion01 {
 
     public static void main(String[] args) {
 
@@ -24,7 +24,7 @@ public class Solution {
 
         for (int i = 0; i < mass.length; i++) {
             if (iterator == mass[i]) {
-                mass[i]=Integer.MAX_VALUE;
+                mass[i] = Integer.MAX_VALUE;
             }
         }
 
