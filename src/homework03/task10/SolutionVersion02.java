@@ -8,16 +8,16 @@ public class SolutionVersion02 {
     public static void main(String[] args) {
 
         int[] array = {1, 9, 8, 7, 6, 5, 4, 3, 2, 1};
-        boolean flag = true;
+        boolean oneMoreTime = true;
 
-        while (flag) {
-            flag = false;
+        while (oneMoreTime) {
+            oneMoreTime = false;
             for (int i = 0; i < array.length - 1; i++) {
                 if (array[i] > array[i + 1]) {
                     int temp = array[i];
                     array[i] = array[i + 1];
                     array[i + 1] = temp;
-                    flag = true;
+                    oneMoreTime = true;
                 }
             }
         }

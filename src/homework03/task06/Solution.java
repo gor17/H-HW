@@ -15,7 +15,8 @@ public class Solution {
         for (int i = 0; i < myArray.length; i++) {
             if (myArray[i] < min) {
                 min = myArray[i];
-            } else if (myArray[i] > max) {
+            }
+            if (myArray[i] > max) {
                 max = myArray[i];
             }
         }
