@@ -3,7 +3,7 @@ package homework04.task01;
 /*1. Создайте функцию, которая заполняет 2-мерный массив треугольником Паскаля
 (элемент, который на строчке ниже, равен сумме 2х верхних элементов, которые стоят рядом; по бокам стоят единицы)
  */
-public class Solution {
+public class SolutionVersion01 {
 
     private static int[][] makePaskal(int[][] array) { //заполняем массив элементами
         for (int i = 0; i < array.length; i++) {
